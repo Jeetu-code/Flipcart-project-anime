@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+:root{
+    --main-bg-color:rgb(84, 176, 251);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    
+}
+.logo{
+
+    display: flex;
+   
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family:"Pacifico", serif;
+}
+nav ul li a:hover{
+    color: rgb(0, 21, 255);
+    font-weight: bold;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width:493px;
+    height: 23px;
+margin: 0 19px;
+padding: 0 0 0 2px;}
+.btn{
+    height: 27px;
+  width: 66px;
+  background-color: var(--main-bg-color);
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  font-family:"Pacifico", serif;
+}
+.btn:hover{
+    
+    background-color: var(--main-bg-color);
+    color: rgb(0, 21, 255);
+    border: 2px solid rgb(0, 21, 255);
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    padding-top: 15px;
+    margin: auto;
+    width: 50vw;
+    
+} 
+.slider img{
+    width: 50vw;
+}
+
+.lines h2{
+    font-family:"Pacifico", serif;
+    padding: 0 0 2px 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.hashiras{
+    display: inline-flex;
+    text-align: center;
+    padding: 0 0 0 6px;
+}
+.vilan{
+    padding-top: 15px;
+    margin: auto;
+    width: 50vw;
+
+}
+.vilan img{
+    width: 50vw;
+}
+.vilan h2{
+    text-align: center;
+    font-family:"Pacifico", serif ;
+    font-size: xxx-large;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family:"Pacifico", serif;
+}
